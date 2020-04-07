@@ -8,7 +8,6 @@ public class Drive {
 	private int freeSpace;
 
 	public Drive(String name, int size) {
-		this.name = name;
 		this.size = size;
 		this.freeSpace = size;
 		includingFolders = new ArrayList<Folder>();
